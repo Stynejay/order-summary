@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 100px 100px 0px 50px;
+    box-shadow: 0.1px 0.1px 20px 1px grey;
+}
+.image{
+    flex: 1.0;
+    background-size: contain;
+    background-image: url(./images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+}
+p{
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+    color: hsl(224, 23%, 55%);
+}
+#subscription{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(224, 23%, 55%, 0.1);
+    margin: 30px;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+#plan{
+    margin: 0px 55px 0px 5px;
+}
+span{
+    color: hsl(224, 23%, 55%);
+}
+#change{
+    color: hsl(245, 75%, 52%);
+    text-decoration-line: underline;
+    margin-right: 10px;
+   
+}
+#change:hover{
+    color: hsl(224, 77%, 66%);
+    cursor: pointer;
+    text-decoration: none;
+}
+.icon{
+    margin-left: 10px;
+}
+#button1{
+    padding: 8px;
+    margin: 0px 30px 0px 30px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 7px;
+    border: none;
+    justify-content: center;
+    color: white;
+    font-weight: 900px;
+    box-shadow: 0.1px 0.1px 15px 1px grey;
+}
+#button1:hover{
+    cursor: pointer;
+    background-color: hsl(224, 77%, 66%);
+}
+#button2{
+    padding: 8px;
+    margin: 10px 30px 30px 30px;
+    border: none;
+    background: none;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+#button2:hover{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+@media only screen and(max-width: 700px) {
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(./images/pattern-background-desktop.svg);
+        
+    }
+    
+    #card{
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+        height: 500px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 100px;
+        box-shadow: 0.1px 0.1px 20px 1px grey;
+    }
+    .image{
+        flex: 1.0;
+        background-size: contain;
+        background-image: url(./images/illustration-hero.svg);
+        background-repeat: no-repeat;
+        border-radius: 10px 10px 0px 0px;
+    
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-weight: 900;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: hsl(223, 47%, 23%);
+    }
+    p{
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        padding: 0px 30px 0px 30px;
+        color: hsl(224, 23%, 55%);
+    }
+    #subscription{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(224, 23%, 55%, 0.1);
+        margin: 30px;
+        padding: 10px;
+        border-radius: 7px;
+        
+    }
+    #plan{
+        margin: 0px 55px 0px 5px;
+    }
+    span{
+        color: hsl(224, 23%, 55%);
+    }
+    #change{
+        color: hsl(245, 75%, 52%);
+        text-decoration-line: underline;
+        margin-right: 10px;
+       
+    }
+    #change:hover{
+        color: hsl(224, 77%, 66%);
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .icon{
+        margin-left: 10px;
+    }
+    #button1{
+        padding: 8px;
+        margin: 0px 30px 0px 30px;
+        background-color: hsl(245, 75%, 52%);
+        border-radius: 7px;
+        border: none;
+        justify-content: center;
+        color: white;
+        font-weight: 900px;
+        box-shadow: 0.1px 0.1px 15px 1px grey;
+    }
+    #button1:hover{
+        cursor: pointer;
+        background-color: hsl(224, 77%, 66%);
+    }
+    #button2{
+        padding: 8px;
+        margin: 10px 30px 30px 30px;
+        border: none;
+        background: none;
+        font-weight: 900;
+        color: hsl(224, 23%, 55%);
+    }
+    #button2:hover{
+        cursor: pointer;
+        color: hsl(223, 47%, 23%);
+    }
+    
+}
